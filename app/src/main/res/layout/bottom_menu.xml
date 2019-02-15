@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:paddingTop="7dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:id="@+id/ll_menu1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="7.5dp">
+
+        <ImageView
+            android:id="@+id/im_menu1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bottom_menu1" />
+
+        <TextView
+            android:id="@+id/tv_menu1"
+            style="@style/bottom_text"
+            android:text="@string/home_page" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_menu2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="7.5dp">
+
+        <ImageView
+            android:id="@+id/im_menu2"
+            android:layout_width="20dp"
+            android:layout_height="23dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bottom_menu2" />
+
+        <TextView
+            android:id="@+id/tv_menu2"
+            style="@style/bottom_text"
+            android:text="日志" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_menu3"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="7.5dp">
+
+        <ImageView
+            android:id="@+id/im_menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bottom_menu3" />
+
+        <TextView
+            android:id="@+id/tv_menu3"
+            style="@style/bottom_text"
+            android:text="特权" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_menu4"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="7.5dp">
+
+        <ImageView
+            android:id="@+id/im_menu4"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bottom_menu4" />
+
+        <TextView
+            android:id="@+id/tv_menu4"
+            style="@style/bottom_text"
+            android:text="问答" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_menu5"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="7.5dp">
+
+        <ImageView
+            android:id="@+id/im_menu5"
+            android:layout_width="21dp"
+            android:layout_height="23dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+
+            android:src="@drawable/bottom_menu5" />
+
+        <TextView
+            android:id="@+id/tv_menu5"
+            style="@style/bottom_text"
+            android:text="我" />
+    </LinearLayout>
+
+
+</LinearLayout>
